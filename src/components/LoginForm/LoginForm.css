@@ -1,0 +1,41 @@
+.login-container {
+  width: 320px;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgb(255, 248, 244), rgb(254, 234, 219));
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8800;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ec7e00;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
