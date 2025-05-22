@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🦁 멋쟁이사자처럼 13기 React 3번째 세션 과제입니다🦁
+React_hooks **세션 과제 repository**입니다!
+<br/>
+<br/>
+<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [1번 문제] 다크모드 구현하기
 
-## Available Scripts
+☘️ **문제**
 
-In the project directory, you can run:
+**`useState` 와 `이벤트핸들러`를 사용**하여 **다크모드**를 구현해봅시다! 
 
-### `npm start`
+라이트모드에서 버튼을 누르면 다크모드로, 다크모드에서 버튼을 부르면 라이트모드로 전환되도록 코드를 구성해주세요!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**<예시>**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+https://github.com/user-attachments/assets/ae427286-ece8-4900-a8b4-fc1edb014ad4
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+다음과 같이 만들어주시면 됩니다! 😍
+<br/>
 
-### `npm run eject`
+**주의**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **css파일은 건들이지 마시고 jsx파일에서 작업해주세요!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
+<br/>
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# [2번 문제] 로그인 폼 구현하기
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+☘️ **문제**
 
-## Learn More
+**부모 컴포넌트인 `LoginPage`** 에는 한명의 회원 정보가 **객체 형태**로 다음과 같이 저장되어 있습니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/user-attachments/assets/c2b69eb8-8582-47bd-af7f-e7d3106e3605
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+해당 회원의 정보를 기반으로 로그인폼을 구현해봅시다! 
+아래 요구사항들을 모두 반영해 코드를 작성해주세요! 😍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. 사용자는 해당 정보와 일치하는 `id`와 `pw`를 입력해야 성공적으로 로그인할 수 있습니다!
+2. 사용자가 잘못된 `id`와 `pw`를 입력했을 경우 **오류를 안내**하는 메세지를 띄워야합니다!
+3. React의 **중요 `hook`들과 `props`를 활용**하여 구현해야합니다!
 
-### Making a Progressive Web App
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**<예시>**
 
-### Advanced Configuration
+**힌트**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **`useState`** 는 **입력 필드 상태 관리**를 할 때 사용해요!
+- **`useEffect`** 는 로그인 시 특정 동작 수행을 할때 활용해요! **(메세지 띄우기!!)**
+- **`useRef`** 는 입력 필드 **포커스를 이동**시킬 수 있어요!
+- **`props`** 로 사용자 정보 전달해요!
 
-### Deployment
+**주의**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **css파일은 건들이지 마시고 jsx파일에서 작업해주세요!**
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
