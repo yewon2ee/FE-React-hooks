@@ -6,7 +6,8 @@ import LoginPage from "./page/LoginPage";
 function App() {
   return (
     <div>
-      <LoginPage />
+      {/* <Darkmode/> */}
+      <LoginPage/>
     </div>
   );
 }
